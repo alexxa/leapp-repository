@@ -193,6 +193,9 @@ def version2_check(info):
     for instance in info.instances:
         if _manifest_get(instance.manifest, 'release', None) == '1.00':
             continue
+        if not version.matches_target_version('8.6', '9.0'):
+            _report_skip_check()
+            return True
         if not _fullfills_hana_min_version(instance):
             _add_hana_details(found, instance)
 
@@ -265,3 +268,4 @@ def perform_check():
     running_check(info)
     version1_check(info)
     version2_check(info)
+matches_version
