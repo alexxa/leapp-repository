@@ -1,7 +1,6 @@
 from leapp.actors import Actor
 from leapp.libraries.actor.checksaphana import perform_check
-from leapp.libraries.common.config import version
-from leapp.models import SapHanaInfo, SapHanaDesicion
+from leapp.models import SapHanaInfo
 from leapp.reporting import Report
 from leapp.tags import ChecksPhaseTag, IPUWorkflowTag
 
