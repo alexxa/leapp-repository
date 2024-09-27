@@ -5,7 +5,7 @@
 
 ## Troubleshooting
 
-### Where can I report an issue or RFE related to the framework or other actors?
+### Where can I report an issue or RFE releted to the framework or other actors?
 
 - GitHub issues are preferred:
   - Leapp framework: [https://github.com/oamg/leapp/issues/new/choose](https://github.com/oamg/leapp/issues/new/choose)
